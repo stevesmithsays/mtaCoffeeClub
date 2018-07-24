@@ -40,7 +40,7 @@ body {
 
 .site-logo:hover {
   transition: .5s ease all;
-  background: lightblue;
+  background: #70e0ce;
   border: 1px solid black; }
 
 .logo-bod {
@@ -59,15 +59,19 @@ body {
   margin: 0 auto;
   width: 84px;
   top: 32px;
+  right: 8px;
   padding: 2px;
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: -3px;
   line-height: 22px;
-  transition: .3s ease all; }
+  text-align: center;
+  transition: .2s ease all; }
 
 .site-logo:hover .logo-span {
-  transition: .3s ease all;
+  transition: .2s ease all;
+  color: #fffffff3;
+  letter-spacing: -2px;
   text-shadow: -8px 8px 1px #00000036; }
 
 .nav-container {
@@ -142,20 +146,22 @@ body {
     display: block;
     position: relative;
     text-align: center;
-    transition: .3s ease all;
-    letter-spacing: -2px; }
+    transition: .3s ease all; }
   .hero-container h1 {
-    color: #ffffff;
-    font-size: 5rem; }
+    color: #ffffffad;
+    font-size: 5rem;
+    letter-spacing: -7px; }
   .hero-container h2 {
     color: #ffffff00;
     font-size: 2rem;
     bottom: 30px;
+    font-style: italic;
+    letter-spacing: -3px;
     transition: .3s ease all; }
 
 .hero-container:hover {
   transition: .2s ease all;
-  background: #00000063;
+  background: #00000077;
   border: 12px solid #ffffff; }
 
 .hero-container:hover h1 {

@@ -33,24 +33,26 @@
     position: relative;
     text-align: center;
     transition: .3s ease all;
-    letter-spacing: -2px;
+    
   }
   
   h1{
-    color: #ffffff;
+    color: #ffffffad;
     font-size: 5rem;
+    letter-spacing: -7px;
   }
   h2{
     color: #ffffff00;
     font-size: 2rem;
     bottom: 30px;
+    font-style: italic;
+    letter-spacing: -3px;
     transition: .3s ease all;
   }
 }
 .hero-container:hover{
   transition: .2s ease all;
-  background: #00000063;
-  
+  background: #00000077;
   border: 12px solid #ffffff;
 }
 
