@@ -1,0 +1,64 @@
+.hero-component{
+  background: #000000;
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 120px;
+} 
+.hero-body{
+  background-image: url('../../assets/images/spilledMilk.jpg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 600px;
+}
+
+.hero-container{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  width: 400px;
+  height: 400px;  
+  font-weight: 800;
+  border: 12px solid #ffffff00;
+  transition: .2s ease all;
+
+  .hedr{
+    display: block;
+    position: relative;
+    text-align: center;
+    transition: .3s ease all;
+    letter-spacing: -2px;
+  }
+  
+  h1{
+    color: #ffffff;
+    font-size: 5rem;
+  }
+  h2{
+    color: #ffffff00;
+    font-size: 2rem;
+    bottom: 30px;
+    transition: .3s ease all;
+  }
+}
+.hero-container:hover{
+  transition: .2s ease all;
+  background: #00000063;
+  
+  border: 12px solid #ffffff;
+}
+
+.hero-container:hover h1 {
+  transition: .3s ease all;
+  color: white;
+}
+.hero-container:hover h2{
+  transition: .3s ease all;
+  color: white;
+}

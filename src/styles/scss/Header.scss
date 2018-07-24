@@ -1,0 +1,128 @@
+// ** HEADER ** //
+
+.header-component{
+  display: block;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+  margin-bottom: 20px;
+}
+.header-body{
+  // background: #e45b5bcb;
+  border-bottom: 1px solid #00000025;
+  height: 120px;
+  margin-bottom: 10px;
+  transition: .4s ease all;
+}
+
+.header-body:hover{
+  transition: .4s ease all;
+  background: #ffffffc5;
+  border-bottom: 1px solid #00000067;
+}
+// ** LOGO THINGS ** //
+
+.site-logo{
+  background: #ffffff17;
+  display: block;
+  position: relative;
+  width: 90px;
+  border: 1px solid #0000007e;
+  padding: 8px;
+  height: 80px;
+  top: 12px;
+  left: 12px;
+  transition: .5s ease all;
+}
+.site-logo:hover{
+  transition: .5s ease all;
+  background: lightblue;
+  // box-shadow: -8px 8px 2px #0000009a;
+  border: 1px solid black;
+}
+.logo-bod{
+  // background: lightcoral;
+  border: 1px solid #fafafa00;
+  display: block;
+  position: relative;
+  height: 80px;
+  transition: .4s ease all;
+}
+.site-logo:hover .logo-bod{
+  transition: .5s ease all;
+  // border: 1px solid black;
+}
+
+.logo-span{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 84px;
+  top: 32px;
+  padding: 2px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 22px;
+  transition: .3s ease all;
+}
+
+.site-logo:hover .logo-span{
+  transition: .3s ease all;
+  // background: #0c39ff93;
+  // background: lightgreen;
+  text-shadow: -8px 8px 1px #00000036;
+}
+
+
+// ** NAV THINGS ** //
+.nav-container{
+  // background: lightgreen;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 4px;
+  float: right;
+  bottom: 18px;
+  right: 24px;
+  width: 350px;
+}
+.site-nav{
+  // background: lightblue;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.site-nav ul{
+  // background: #51744e;
+  display: block;
+  position: relative;
+  text-align: right;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.site-nav ul li{
+  // background: #c6e67b;
+  display: inline-block;
+  position: relative;
+  margin: 0 2px;
+  padding: 4px;
+}
+.site-nav a{
+  // background: #00000071;
+  color: #0000007a;
+  letter-spacing: -1px;
+  font-weight: 100;
+  padding: 4px;
+  transition: .3s ease all;
+}
+
+.site-nav a:hover{
+  transition: .3s ease all;
+  background: #b43434;
+  color: white;
+  // color: black;
+}
