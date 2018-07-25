@@ -31,7 +31,7 @@
 
 .site-logo:hover {
   transition: .5s ease all;
-  background: #70e0ce;
+  background: #0000204b;
   border: 1px solid black; }
 
 .logo-bod {
@@ -95,14 +95,15 @@
 
 .site-nav a {
   color: #0000007a;
+  border-radius: 1px;
   letter-spacing: -1px;
   font-weight: 100;
   padding: 4px;
-  transition: .3s ease all; }
+  transition: .2s ease all; }
 
 .site-nav a:hover {
-  transition: .3s ease all;
-  background: #b43434;
+  transition: .2s ease all;
+  background: #0000204b;
   color: white; }
 
 /*# sourceMappingURL=Header.css.map */

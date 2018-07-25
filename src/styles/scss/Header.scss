@@ -37,9 +37,9 @@
 }
 .site-logo:hover{
   transition: .5s ease all;
-  background: #70e0ce;
-  // box-shadow: -8px 8px 2px #0000009a;
+  background: #0000204b;
   border: 1px solid black;
+  // background: #70e0ce;
 }
 .logo-bod{
   // background: lightcoral;
@@ -118,15 +118,17 @@
 .site-nav a{
   // background: #00000071;
   color: #0000007a;
+  border-radius: 1px;
   letter-spacing: -1px;
   font-weight: 100;
   padding: 4px;
-  transition: .3s ease all;
+  transition: .2s ease all;
 }
 
 .site-nav a:hover{
-  transition: .3s ease all;
-  background: #b43434;
+  transition: .2s ease all;
+  // background: #05ff9f38;
+  // color: #0000007a;
+  background: #0000204b;
   color: white;
-  // color: black;
 }
