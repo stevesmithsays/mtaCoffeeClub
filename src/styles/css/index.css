@@ -63,7 +63,6 @@ body {
 
 .header-body:hover {
   transition: .4s ease all;
-  background: #fffffff8;
   border-bottom: 1px solid #00000067; }
 
 .site-logo {
@@ -172,7 +171,7 @@ body {
   height: 1000px; }
 
 .hero-container {
-  background: #ff4e835d;
+  background: #ff227e48;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,12 +179,12 @@ body {
   margin: 0 auto;
   overflow: hidden;
   padding: 22px;
-  top: 50px;
+  top: 200px;
   width: 440px;
   height: 400px;
   font-weight: 800;
   border: 12px solid #ffffff00;
-  transition: .3s ease all; }
+  transition: .4s ease all; }
   .hero-container h1 {
     color: #00000088;
     text-align: center;
@@ -201,14 +200,13 @@ body {
     transition: .3s ease all; }
 
 .hero-container:hover {
-  transition: .3s ease all;
-  background: #ff4e83a9;
-  box-shadow: -2px 2px 80px #22fccd93;
-  border: 12px solid #ffffff; }
+  transition: .4s ease all;
+  background: #fafafa00;
+  border: 12px solid #ffffff;
+  background: #0f006641; }
 
 .hero-container:hover h1 {
   transition: .4s ease all;
-  text-shadow: -2px 2px 1px black;
   color: #fffffff5; }
 
 .hero-container:hover h2 {
