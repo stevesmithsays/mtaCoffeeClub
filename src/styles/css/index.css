@@ -1,3 +1,23 @@
+.about-component {
+  background: #FF552B;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 4rem;
+  height: 900px;
+  width: 1300px;
+  letter-spacing: -14px;
+  text-align: center; }
+  .about-component h1 {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    width: 60%;
+    height: 400px;
+    word-wrap: break-word; }
+
 a, li {
   text-decoration: none;
   list-style: none; }
@@ -6,6 +26,26 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif; }
+
+.blog-component {
+  background: #1B2EAA;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 4rem;
+  height: 900px;
+  width: 1300px;
+  letter-spacing: -14px;
+  text-align: center; }
+  .blog-component h1 {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    width: 60%;
+    height: 400px;
+    word-wrap: break-word; }
 
 .header-component {
   display: block;
@@ -16,14 +56,14 @@ body {
   margin-bottom: 20px; }
 
 .header-body {
-  border-bottom: 1px solid #00000025;
+  border-bottom: 1px solid #00000000;
   height: 120px;
   margin-bottom: 10px;
   transition: .4s ease all; }
 
 .header-body:hover {
   transition: .4s ease all;
-  background: #ffffffc5;
+  background: #fffffff8;
   border-bottom: 1px solid #00000067; }
 
 .site-logo {
@@ -40,7 +80,7 @@ body {
 
 .site-logo:hover {
   transition: .5s ease all;
-  background: #0000204b;
+  background: #ff4674;
   border: 1px solid black; }
 
 .logo-bod {
@@ -50,10 +90,8 @@ body {
   height: 80px;
   transition: .4s ease all; }
 
-.site-logo:hover .logo-bod {
-  transition: .5s ease all; }
-
 .logo-span {
+  color: black;
   display: block;
   position: relative;
   margin: 0 auto;
@@ -70,9 +108,8 @@ body {
 
 .site-logo:hover .logo-span {
   transition: .2s ease all;
-  color: #fffffff3;
-  letter-spacing: -2px;
-  text-shadow: -8px 8px 1px #00000036; }
+  color: #ebfffc;
+  text-shadow: -8px 8px 1px #00000091; }
 
 .nav-container {
   display: block;
@@ -82,7 +119,7 @@ body {
   float: right;
   bottom: 18px;
   right: 24px;
-  width: 350px; }
+  width: 450px; }
 
 .site-nav {
   display: block;
@@ -103,17 +140,18 @@ body {
   padding: 4px; }
 
 .site-nav a {
-  color: #0000007a;
-  border-radius: 1px;
-  letter-spacing: -1px;
+  color: #0000009d;
   font-weight: 100;
   padding: 4px;
+  border: 1px solid #fafafa00;
+  letter-spacing: -1px;
   transition: .2s ease all; }
 
 .site-nav a:hover {
   transition: .2s ease all;
-  background: #0000204b;
-  color: white; }
+  background: #fafafa00;
+  background: #e9147e60;
+  border: 1px solid #00000083; }
 
 .hero-component {
   background: #000000;
@@ -123,54 +161,92 @@ body {
   top: 120px; }
 
 .hero-body {
-  background-image: url("../../assets/images/spilledMilk.jpg");
+  background-image: url("../../assets/images/bold.jpg");
+  background-position: center;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  height: 1000px; }
+
+.hero-container {
+  background: #ff4e835d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 22px;
+  top: 50px;
+  width: 440px;
+  height: 400px;
+  font-weight: 800;
+  border: 12px solid #ffffff00;
+  transition: .3s ease all; }
+  .hero-container h1 {
+    color: #00000088;
+    text-align: center;
+    font-size: 7.75rem;
+    line-height: 105px;
+    letter-spacing: -13px;
+    transition: .4s ease all; }
+  .hero-container h2 {
+    color: #ffffff00;
+    font-size: 2rem;
+    bottom: 30px;
+    letter-spacing: -3px;
+    transition: .3s ease all; }
+
+.hero-container:hover {
+  transition: .3s ease all;
+  background: #ff4e83a9;
+  box-shadow: -2px 2px 80px #22fccd93;
+  border: 12px solid #ffffff; }
+
+.hero-container:hover h1 {
+  transition: .4s ease all;
+  text-shadow: -2px 2px 1px black;
+  color: #fffffff5; }
+
+.hero-container:hover h2 {
+  transition: .3s ease all;
+  color: white; }
+
+.products-component {
+  background-image: url("../../assets/images/create.jpg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   display: block;
   position: relative;
   margin: 0 auto;
-  width: 90%;
-  height: 600px; }
+  top: 100px;
+  height: 600px;
+  text-align: center; }
+  .products-component h1 {
+    background: #a320fa85; }
 
-.hero-container {
+.schedule-component {
+  background: #FFD416;
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 20px;
-  width: 400px;
-  height: 400px;
-  font-weight: 800;
-  border: 12px solid #ffffff00;
-  transition: .2s ease all; }
-  .hero-container .hedr {
+  padding-top: 20px;
+  font-size: 4rem;
+  height: 900px;
+  width: 1300px;
+  letter-spacing: -14px;
+  text-align: center; }
+  .schedule-component h1 {
     display: block;
     position: relative;
-    text-align: center;
-    transition: .3s ease all; }
-  .hero-container h1 {
-    color: #ffffffad;
-    font-size: 5rem;
-    letter-spacing: -7px; }
-  .hero-container h2 {
-    color: #ffffff00;
-    font-size: 2rem;
-    bottom: 30px;
-    font-style: italic;
-    letter-spacing: -3px;
-    transition: .3s ease all; }
-
-.hero-container:hover {
-  transition: .2s ease all;
-  background: #00000077;
-  border: 12px solid #ffffff; }
-
-.hero-container:hover h1 {
-  transition: .3s ease all;
-  color: white; }
-
-.hero-container:hover h2 {
-  transition: .3s ease all;
-  color: white; }
+    margin: 0 auto;
+    top: 200px;
+    width: 60%;
+    height: 400px;
+    word-wrap: break-word; }
 
 /*# sourceMappingURL=index.css.map */

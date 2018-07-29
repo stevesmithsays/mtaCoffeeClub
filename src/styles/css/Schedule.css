@@ -1,3 +1,21 @@
-
+.schedule-component {
+  background: #FFD416;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 4rem;
+  height: 900px;
+  width: 1300px;
+  letter-spacing: -14px;
+  text-align: center; }
+  .schedule-component h1 {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    width: 60%;
+    height: 400px;
+    word-wrap: break-word; }
 
 /*# sourceMappingURL=Schedule.css.map */

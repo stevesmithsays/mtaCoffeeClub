@@ -1,5 +1,5 @@
-.about-component{
-  background: #FF552B;
+.blog-component {
+  background: #1B2EAA;
   display: block;
   position: relative;
   margin: 0 auto;
@@ -8,17 +8,14 @@
   height: 900px;
   width: 1300px;
   letter-spacing: -14px;
-  text-align: center;
-
-  h1{
-    // background: lightblue;
-    display:block;
+  text-align: center; }
+  .blog-component h1 {
+    display: block;
     position: relative;
     margin: 0 auto;
     top: 200px;
     width: 60%;
     height: 400px;
-    word-wrap: break-word;
+    word-wrap: break-word; }
 
-  }
-}
+/*# sourceMappingURL=Blog.css.map */

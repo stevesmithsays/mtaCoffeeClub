@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,mBAAmB;EAEjB,gBAAgB,EAAE,qCAAqC;EACvD,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,IAAI;EACrB,iBAAiB,EAAE,SAAS;EAC5B,OAAO,EAAE,KAAK;EACd,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,MAAM;EACd,GAAG,EAAE,KAAK;EACV,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,MAAM;EAClB,sBAAE;IACA,UAAU,EAAE,SAAS",
+"sources": ["../scss/Products.scss"],
 "names": [],
 "file": "Products.css"
 }

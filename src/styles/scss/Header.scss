@@ -9,8 +9,8 @@
   margin-bottom: 20px;
 }
 .header-body{
-  // background: #e45b5bcb;
-  border-bottom: 1px solid #00000025;
+  // border-bottom: 1px solid #00000025;
+  border-bottom: 1px solid #00000000;
   height: 120px;
   margin-bottom: 10px;
   transition: .4s ease all;
@@ -18,7 +18,7 @@
 
 .header-body:hover{
   transition: .4s ease all;
-  background: #ffffffc5;
+  background: #fffffff8;
   border-bottom: 1px solid #00000067;
 }
 // ** LOGO THINGS ** //
@@ -37,24 +37,20 @@
 }
 .site-logo:hover{
   transition: .5s ease all;
-  background: #0000204b;
+  background: #ff4674;
   border: 1px solid black;
-  // background: #70e0ce;
 }
 .logo-bod{
-  // background: lightcoral;
   border: 1px solid #fafafa00;
   display: block;
   position: relative;
   height: 80px;
   transition: .4s ease all;
 }
-.site-logo:hover .logo-bod{
-  transition: .5s ease all;
-  // border: 1px solid black;
-}
 
 .logo-span{
+  // background: lightgreen;
+  color: black;
   display: block;
   position: relative;
   margin: 0 auto;
@@ -72,11 +68,8 @@
 
 .site-logo:hover .logo-span{
   transition: .2s ease all;
-  color: #fffffff3;
-  letter-spacing: -2px;
-  // background: #0c39ff93;
-  // background: lightgreen;
-  text-shadow: -8px 8px 1px #00000036;
+  color: #ebfffc;
+  text-shadow: -8px 8px 1px #00000091;
 }
 
 
@@ -90,7 +83,7 @@
   float: right;
   bottom: 18px;
   right: 24px;
-  width: 350px;
+  width: 450px;
 }
 .site-nav{
   // background: lightblue;
@@ -117,18 +110,21 @@
 }
 .site-nav a{
   // background: #00000071;
-  color: #0000007a;
-  border-radius: 1px;
-  letter-spacing: -1px;
+  // 
+  // background: #00000025;
+  color: #0000009d;
   font-weight: 100;
   padding: 4px;
+  border: 1px solid #fafafa00;
+  letter-spacing: -1px;
+  // border-radius: 4px;
   transition: .2s ease all;
 }
-
 .site-nav a:hover{
   transition: .2s ease all;
-  // background: #05ff9f38;
-  // color: #0000007a;
-  background: #0000204b;
-  color: white;
+  // background: #0000204b;
+  background: #fafafa00;
+  background: #e9147e60;
+  border: 1px solid #00000083;
+  // color: white;
 }

@@ -1,3 +1,15 @@
-
+.products-component {
+  background-image: url("../../assets/images/create.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 100px;
+  height: 600px;
+  text-align: center; }
+  .products-component h1 {
+    background: #a320fa85; }
 
 /*# sourceMappingURL=Products.css.map */
