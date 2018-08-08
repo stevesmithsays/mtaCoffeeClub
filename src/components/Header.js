@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/scss/Header.scss';
 import { Link } from 'react-router-dom';
 
+
 const Header = () => {
   return(
     <div className="header-component">
@@ -22,6 +23,9 @@ const Header = () => {
               <li><a href="http://mountatlas.club/#/">Products</a></li>
             </ul>
           </nav>
+          </div>
+        <div className="menu-btn-container">
+          <button className="menu-btn">V</button>
         </div>
       </div>
     </div>

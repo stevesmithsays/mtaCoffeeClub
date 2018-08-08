@@ -5,20 +5,22 @@
   position: fixed;
   top: 0px;
   width: 100%;
+  height: 120px;
   z-index: 100;
   margin-bottom: 20px;
 }
+
 .header-body{
-  // border-bottom: 1px solid #00000025;
-  border-bottom: 1px solid #00000000;
+  // background:lightblue;
   height: 120px;
   margin-bottom: 10px;
+  border-bottom: 1px solid black;
   transition: .4s ease all;
 }
 
 .header-body:hover{
   transition: .4s ease all;
-  // background: #fffffff8;
+  background: #ffffff23;
   border-bottom: 1px solid #00000067;
 }
 // ** LOGO THINGS ** //
@@ -28,15 +30,15 @@
   display: block;
   position: relative;
   width: 90px;
+  height: 80px;
   border: 1px solid #0000007e;
   padding: 8px;
-  height: 80px;
   top: 12px;
   left: 12px;
-  transition: .5s ease all;
+  transition: .3s ease all;
 }
 .site-logo:hover{
-  transition: .5s ease all;
+  transition: .3s ease all;
   background: #ff4674;
   border: 1px solid black;
 }
@@ -74,9 +76,10 @@
 
 
 // ** NAV THINGS ** //
+
 .nav-container{
   // background: lightgreen;
-  display: block;
+  display: absolute;
   position: relative;
   margin: 0 auto;
   padding: 4px;
@@ -110,21 +113,72 @@
 }
 .site-nav a{
   // background: #00000071;
-  // 
-  // background: #00000025;
   color: #0000009d;
   font-weight: 100;
   padding: 4px;
   border: 1px solid #fafafa00;
   letter-spacing: -1px;
-  // border-radius: 4px;
   transition: .2s ease all;
 }
 .site-nav a:hover{
   transition: .2s ease all;
-  // background: #0000204b;
-  background: #fafafa00;
-  background: #e9147e60;
+  background: #00000060;
   border: 1px solid #00000083;
   // color: white;
+}
+
+// MENU BUTTON THANGS //
+
+.menu-btn-container{
+  display:none;
+
+  .menu-btn{
+    display:none;
+  }
+}
+  
+
+
+
+@media screen and (max-width:800px){
+  .header-body{
+    height: 100px;
+  }
+
+  .nav-container{
+    transition: .4s ease all;
+    display: none;
+  }
+  .site-logo{
+    width: 70px;
+    height: 60px;
+  }
+  .logo-span{
+    top: 10px;
+    width: 90%;
+    font-size: 1.40rem;
+    letter-spacing: -3px;
+  }
+  .menu-btn-container{
+    // background: #8317ff91;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    width: 100%;
+    bottom: 20px;
+
+    .menu-btn{
+      background: #00000000;
+      display: block;
+      position: relative;
+      margin-right: 40px;
+      height: 40px;
+      width: 50px;
+      letter-spacing: -2px;
+    }
+  }
+  .menu-btn:hover{
+    cursor: pointer;
+  }
+
 }
