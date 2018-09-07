@@ -84,11 +84,10 @@ body {
 
 .header-body:hover {
   transition: .4s ease all;
-  background: #ffffff23;
   border-bottom: 1px solid #00000067; }
 
 .site-logo {
-  background: #ffffff17;
+  background: #ffffff25;
   display: block;
   position: relative;
   width: 90px;
@@ -105,10 +104,10 @@ body {
   border: 1px solid black; }
 
 .logo-bod {
-  border: 1px solid #fafafa00;
   display: block;
   position: relative;
-  height: 80px;
+  height: 60px;
+  border: 1px solid #fafafa00;
   transition: .4s ease all; }
 
 .logo-span {
@@ -173,12 +172,11 @@ body {
   background: #00000060;
   border: 1px solid #00000083; }
 
-.menu-btn-container {
-  display: none; }
-  .menu-btn-container .menu-btn {
-    display: none; }
-
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 701px) {
+  .menu-btn-container {
+    display: none;
+    overflow: hidden; } }
+@media screen and (max-width: 700px) {
   .header-body {
     height: 100px; }
 
@@ -197,21 +195,39 @@ body {
     letter-spacing: -3px; }
 
   .menu-btn-container {
-    display: flex;
+    display: block;
+    float: right;
     position: relative;
-    justify-content: flex-end;
-    width: 100%;
-    bottom: 20px; }
+    padding: 4px;
+    width: 50px;
+    right: 20px;
+    bottom: 26px;
+    height: 30px;
+    transition: .2s ease all; }
     .menu-btn-container .menu-btn {
-      background: #00000000;
       display: block;
-      position: relative;
-      margin-right: 40px;
-      height: 40px;
-      width: 50px;
-      letter-spacing: -2px; }
+      position: absolute;
+      left: 50%;
+      top: 20px;
+      width: 30px;
+      transform: translate(-50%, -50%); }
+    .menu-btn-container .menu-btn:before,
+    .menu-btn-container .menu-btn:after {
+      background-color: black;
+      content: '';
+      display: block;
+      height: 1px;
+      transition: 200ms ease all; }
+    .menu-btn-container .menu-btn:before {
+      box-shadow: 0 10px 0 black;
+      margin-bottom: 19px; }
+    .menu-btn-container .menu-btn:hover:before {
+      box-shadow: 0 0 0 black;
+      transform: translateY(10px) rotate(45deg); }
+    .menu-btn-container .menu-btn:hover:after {
+      transform: translateY(-10px) rotate(-45deg); }
 
-  .menu-btn:hover {
+  .menu-btn-container:hover {
     cursor: pointer; } }
 .hero-component {
   background: #000000;
