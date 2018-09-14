@@ -5,10 +5,7 @@ const Hero = () => {
   return(
     <div className="hero-component">
       <div className="hero-body">
-        <div className="hero-container">
-          <h1 className="hero-hwun">Bold or Bust.</h1>
-          
-        </div>
+        
       </div>
     </div>
   )

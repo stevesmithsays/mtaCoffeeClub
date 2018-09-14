@@ -4,7 +4,9 @@ import "../styles/scss/Schedule.scss";
 const Schedule = () => {
   return(
     <div className="schedule-component">
-      <h1>Schedule Component</h1>
+      <div className="schedule-body">
+        <h1>everywhere all of the time</h1>
+      </div>
     </div>
   )
 }

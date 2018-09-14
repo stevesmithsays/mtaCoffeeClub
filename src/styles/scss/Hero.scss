@@ -2,57 +2,38 @@
   background: #000000;
   display: block;
   position: relative;
-  width: 100%;
-  top: 120px;
+  width: 98.25%;
+  margin: 0 auto;
+  border-radius: 4px;
+  // top: 120px;
 } 
 .hero-body{
-  // background-image: url('../../assets/images/spilledMilk.jpg');
-  background-image: url('../../assets/images/bold.jpg');
+  background-image: url('../../assets/images/spilledMilk.jpg');
+  // background-image: url('../../assets/images/bold.jpg');
   background-position: center;
   background-size: 900px;
   background-repeat: no-repeat;
   display: block;
   position: relative;
   margin: 0 auto;
+  top: 0;
   width: 90%;
-  height: 1000px;
+  height: 700px;
 }
 
 .hero-container{
   background: #ff227e48;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;  
   position: relative;
   margin: 0 auto;
-  overflow: hidden;
   padding: 22px;
-  top: 200px;
-  width: 440px;
-  height: 400px;
+  // top: 320px;
+  width: 280px;
+  height: 280px;
   font-weight: 800;
   border: 12px solid #ffffff00;
-  transition: .4s ease all;
-
-
-  h1{
-    // background: #128b1896;
-    color: #00000088;
-    text-align: center;
-    font-size: 7.75rem;
-    line-height: 105px;
-    letter-spacing: -13px;
-    transition: .4s ease all;
-    
-    
-  }
-  h2{
-    color: #ffffff00;
-    font-size: 2rem;
-    bottom: 30px;
-    letter-spacing: -3px;
-    transition: .3s ease all;
-  }
+  border-radius: 4px;
+  transition: .4s ease all;  
 }
 .hero-container:hover{
   transition: .4s ease all;

@@ -1,21 +1,30 @@
 .about-component {
-  background: #FF552B;
+  background: #205bff8e;
+  background: black;
+  border-radius: 4px;
   display: block;
   position: relative;
   margin: 0 auto;
   padding-top: 20px;
-  font-size: 4rem;
-  height: 900px;
-  width: 1300px;
-  letter-spacing: -14px;
+  height: 905px;
+  width: 98.25%;
   text-align: center; }
-  .about-component h1 {
+
+.abt-header-container {
+  background: #a3e03f59;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 70%;
+  height: 240px; }
+  .abt-header-container h1 {
     display: block;
     position: relative;
+    text-align: left;
     margin: 0 auto;
-    top: 200px;
-    width: 60%;
-    height: 400px;
-    word-wrap: break-word; }
+    line-height: 65px;
+    top: 4%;
+    font-size: 4rem; }
 
 /*# sourceMappingURL=About.css.map */

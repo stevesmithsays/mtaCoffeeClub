@@ -1,5 +1,4 @@
 .footer-body {
-  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +8,7 @@
   color: #fafafa; }
 
 .footer-span {
-  color: #ffffff25;
+  color: #000000a1;
   display: block;
   position: relative;
   width: 250px;

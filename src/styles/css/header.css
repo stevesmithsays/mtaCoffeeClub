@@ -1,48 +1,44 @@
 .header-component {
   display: block;
-  position: fixed;
+  position: relative;
   top: 0px;
   width: 100%;
   height: 120px;
   z-index: 100;
-  margin-bottom: 20px; }
+  transition: .2s ease all; }
 
 .header-body {
+  background: #f1e4d9;
+  display: block;
+  position: fixed;
   height: 120px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid black;
-  transition: .4s ease all; }
-
-.header-body:hover {
-  transition: .4s ease all;
-  border-bottom: 1px solid #00000067; }
+  width: 100%;
+  margin-bottom: 100px; }
 
 .site-logo {
-  background: #ffffff25;
+  background: #02113a59;
   display: block;
   position: relative;
   width: 90px;
   height: 80px;
-  border: 1px solid #0000007e;
   padding: 8px;
+  border-radius: 2px;
   top: 12px;
   left: 12px;
   transition: .3s ease all; }
 
 .site-logo:hover {
   transition: .3s ease all;
-  background: #ff4674;
-  border: 1px solid black; }
+  background: #00042b75; }
 
 .logo-bod {
   display: block;
   position: relative;
   height: 60px;
-  border: 1px solid #fafafa00;
   transition: .4s ease all; }
 
 .logo-span {
-  color: black;
+  color: #f1e4d9;
   display: block;
   position: relative;
   margin: 0 auto;
@@ -57,25 +53,22 @@
   text-align: center;
   transition: .2s ease all; }
 
-.site-logo:hover .logo-span {
-  transition: .2s ease all;
-  color: #ebfffc;
-  text-shadow: -8px 8px 1px #00000091; }
-
 .nav-container {
   display: absolute;
   position: relative;
   margin: 0 auto;
   padding: 4px;
   float: right;
-  bottom: 18px;
+  bottom: 24px;
   right: 24px;
   width: 450px; }
 
 .site-nav {
   display: block;
+  position: relative;
   margin: 0 auto;
-  width: 90%; }
+  width: 90%;
+  top: 4px; }
 
 .site-nav ul {
   display: block;
@@ -87,27 +80,35 @@
 .site-nav ul li {
   display: inline-block;
   position: relative;
-  margin: 0 2px;
+  margin: 0;
   padding: 4px; }
 
 .site-nav a {
-  color: #0000009d;
+  display: block;
+  color: #02113a59;
   font-weight: 100;
   padding: 4px;
-  border: 1px solid #fafafa00;
+  padding-bottom: 9px;
+  border-left: 4px solid #00000000;
+  border-top-right-radius: 8px;
   letter-spacing: -1px;
+  font-weight: 800;
   transition: .2s ease all; }
 
 .site-nav a:hover {
   transition: .2s ease all;
-  background: #00000060;
-  border: 1px solid #00000083; }
+  background: #02113a59;
+  border-left: 4px solid #ecb95a;
+  color: #f1e4d9; }
 
-@media screen and (min-width: 701px) {
-  .menu-btn-container {
-    display: none;
-    overflow: hidden; } }
+.dropnav-container {
+  display: none; }
+
 @media screen and (max-width: 700px) {
+  .header-component {
+    transition: .2s ease all;
+    margin-bottom: -20px; }
+
   .header-body {
     height: 100px; }
 
@@ -127,8 +128,7 @@
 
   .menu-btn-container {
     display: block;
-    float: right;
-    position: relative;
+    position: absolute;
     padding: 4px;
     width: 50px;
     right: 20px;
@@ -144,21 +144,54 @@
       transform: translate(-50%, -50%); }
     .menu-btn-container .menu-btn:before,
     .menu-btn-container .menu-btn:after {
-      background-color: black;
+      background-color: #837C88;
       content: '';
       display: block;
-      height: 1px;
+      height: 4px;
       transition: 200ms ease all; }
     .menu-btn-container .menu-btn:before {
-      box-shadow: 0 10px 0 black;
+      box-shadow: 0 11.5px 0 #837C88;
       margin-bottom: 19px; }
     .menu-btn-container .menu-btn:hover:before {
-      box-shadow: 0 0 0 black;
-      transform: translateY(10px) rotate(45deg); }
+      box-shadow: 0 0 0 #837C88;
+      transform: translateY(11px) rotate(-90deg); }
     .menu-btn-container .menu-btn:hover:after {
-      transform: translateY(-10px) rotate(-45deg); }
+      transform: translateY(-11px) rotate(180deg); }
 
   .menu-btn-container:hover {
-    cursor: pointer; } }
+    cursor: pointer; }
+
+  .dropnav-container {
+    background: linear-gradient(top, #f1e4d9, #eec578);
+    display: flex;
+    position: relative;
+    float: right;
+    width: 160px;
+    top: 24px; }
+
+  .dropnav {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 90%; }
+    .dropnav ul {
+      display: inline-block;
+      position: relative;
+      width: 99%; }
+    .dropnav a {
+      display: block;
+      position: relative;
+      width: 280px;
+      color: #00000071;
+      padding: 4px;
+      right: 40px;
+      font-size: 1rem;
+      letter-spacing: -1.5px;
+      font-weight: 800;
+      transition: .2s ease all; }
+    .dropnav a:hover {
+      transition: .2s ease all;
+      background: #c4373756;
+      color: #000000; } }
 
 /*# sourceMappingURL=Header.css.map */
