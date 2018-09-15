@@ -1,34 +1,41 @@
 .header-component {
-  display: block;
-  position: relative;
+  background: #f1e4d9;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  position: fixed;
+  margin: 0 auto;
+  text-align: center;
   top: 0px;
   width: 100%;
   height: 120px;
-  z-index: 100;
+  z-index: 1001;
   transition: .2s ease all; }
 
 .header-body {
-  background: #f1e4d9;
   display: block;
-  position: fixed;
-  height: 120px;
-  width: 100%;
-  margin-bottom: 100px; }
+  margin: 0 auto;
+  margin-bottom: 200px;
+  height: 20px;
+  width: 95%; }
 
 .site-logo {
   background: #02113a59;
   display: block;
   position: relative;
+  margin: 0 2px;
   width: 90px;
   height: 80px;
   padding: 8px;
-  border-radius: 2px;
+  border-radius: 1px;
+  border-top-right-radius: 12px;
+  border-left: 4px solid #ffc13b;
   top: 12px;
-  left: 12px;
   transition: .3s ease all; }
 
 .site-logo:hover {
   transition: .3s ease all;
+  border-left: 4px solid #2c308862;
   background: #00042b75; }
 
 .logo-bod {
@@ -60,57 +67,60 @@
   padding: 4px;
   float: right;
   bottom: 24px;
-  right: 24px;
+  right: 30px;
   width: 450px; }
 
 .site-nav {
   display: block;
   position: relative;
   margin: 0 auto;
-  width: 90%;
-  top: 4px; }
+  width: 90%; }
 
 .site-nav ul {
   display: block;
   position: relative;
   text-align: right;
   margin: 0 auto;
-  width: 90%; }
+  width: 90%;
+  left: 20px; }
 
 .site-nav ul li {
   display: inline-block;
   position: relative;
-  margin: 0;
-  padding: 4px; }
+  padding: 2px;
+  margin: 0 2px;
+  top: 6px; }
 
 .site-nav a {
-  display: block;
   color: #02113a59;
+  display: inline-block;
+  position: relative;
+  margin-right: -6px;
   font-weight: 100;
   padding: 4px;
   padding-bottom: 9px;
-  border-left: 4px solid #00000000;
+  border-left: 4px solid #fafafa00;
   border-top-right-radius: 8px;
   letter-spacing: -1px;
-  font-weight: 800;
   transition: .2s ease all; }
 
 .site-nav a:hover {
   transition: .2s ease all;
-  background: #02113a59;
-  border-left: 4px solid #ecb95a;
+  background: #4d434356;
+  border-left: 4px solid #2c308862;
   color: #f1e4d9; }
 
 .dropnav-container {
+  transition: .4s ease all;
   display: none; }
 
 @media screen and (max-width: 700px) {
   .header-component {
     transition: .2s ease all;
-    margin-bottom: -20px; }
+    height: 100px; }
 
   .header-body {
-    height: 100px; }
+    bottom: -20px; }
 
   .nav-container {
     transition: .4s ease all;
@@ -118,7 +128,8 @@
 
   .site-logo {
     width: 70px;
-    height: 60px; }
+    height: 60px;
+    left: 8px; }
 
   .logo-span {
     top: 10px;
@@ -131,16 +142,16 @@
     position: absolute;
     padding: 4px;
     width: 50px;
-    right: 20px;
-    bottom: 26px;
+    right: 24px;
+    bottom: 20px;
     height: 30px;
     transition: .2s ease all; }
     .menu-btn-container .menu-btn {
       display: block;
       position: absolute;
       left: 50%;
-      top: 20px;
-      width: 30px;
+      top: 12px;
+      width: 32px;
       transform: translate(-50%, -50%); }
     .menu-btn-container .menu-btn:before,
     .menu-btn-container .menu-btn:after {
@@ -154,20 +165,23 @@
       margin-bottom: 19px; }
     .menu-btn-container .menu-btn:hover:before {
       box-shadow: 0 0 0 #837C88;
-      transform: translateY(11px) rotate(-90deg); }
+      transform: translateY(11.75px) rotate(45deg); }
     .menu-btn-container .menu-btn:hover:after {
-      transform: translateY(-11px) rotate(180deg); }
+      transform: translateY(-11px) rotate(-45deg); }
 
   .menu-btn-container:hover {
     cursor: pointer; }
 
   .dropnav-container {
-    background: linear-gradient(top, #f1e4d9, #eec578);
+    background: #f1e4d9;
     display: flex;
     position: relative;
+    border-bottom-left-radius: 12px;
+    box-shadow: -12px 12px 30px #00000038;
     float: right;
     width: 160px;
-    top: 24px; }
+    top: 24px;
+    left: 24px; }
 
   .dropnav {
     display: flex;
@@ -175,23 +189,28 @@
     margin: 0 auto;
     width: 90%; }
     .dropnav ul {
-      display: inline-block;
+      display: block;
       position: relative;
       width: 99%; }
     .dropnav a {
       display: block;
       position: relative;
-      width: 280px;
       color: #00000071;
+      margin: 1px auto;
       padding: 4px;
-      right: 40px;
+      height: 30px;
+      width: 152px;
+      right: 48px;
+      text-align: left;
+      border-left: 4px solid #ffc13b00;
       font-size: 1rem;
       letter-spacing: -1.5px;
-      font-weight: 800;
+      line-height: 30px;
       transition: .2s ease all; }
     .dropnav a:hover {
       transition: .2s ease all;
-      background: #c4373756;
-      color: #000000; } }
+      background: #4d434356;
+      color: #000000;
+      border-left: 4px solid #2c308862; } }
 
 /*# sourceMappingURL=Header.css.map */

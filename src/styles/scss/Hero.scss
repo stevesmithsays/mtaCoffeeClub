@@ -1,54 +1,26 @@
 .hero-component{
-  background: #000000;
   display: block;
   position: relative;
-  width: 98.25%;
-  margin: 0 auto;
-  border-radius: 4px;
-  // top: 120px;
-} 
-.hero-body{
-  background-image: url('../../assets/images/spilledMilk.jpg');
-  // background-image: url('../../assets/images/bold.jpg');
-  background-position: center;
-  background-size: 900px;
-  background-repeat: no-repeat;
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  top: 0;
-  width: 90%;
   height: 700px;
-}
-
-.hero-container{
-  background: #ff227e48;
-  display: block;  
-  position: relative;
-  margin: 0 auto;
-  padding: 22px;
-  // top: 320px;
-  width: 280px;
-  height: 280px;
-  font-weight: 800;
-  border: 12px solid #ffffff00;
-  border-radius: 4px;
-  transition: .4s ease all;  
-}
-.hero-container:hover{
-  transition: .4s ease all;
-  background: #fafafa00;
-  border: 12px solid #ffffff;
-  background: #0f006641;
-  // box-shadow: -2px 2px 80px #22fccd93;
-}
-
-.hero-container:hover h1 {
-  transition: .4s ease all;
-  // text-shadow: -7px 7px 1px black;
-  color: #fffffff5;
-}
-.hero-container:hover h2{
-  transition: .3s ease all;
-  color: white;
+  width: 100%;
+  background-size: 1400px;
+  background-position: 25% 35%;
+  background-image:url('../../assets/images/pride.jpg');
+  // background-position: cover;
+  h1{
+    background: #ffd9019f;
+    color: #1bff5f9f;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: -2px;
+    top: 260px;
+    text-align: center;
+    width: 25%;
+    min-width: 200px;
+  }
 }

@@ -1,21 +1,14 @@
 .blog-component {
-  background: #1B2EAA;
+  background: #dd9332;
+  border-radius: 4px;
   display: block;
   position: relative;
-  margin: 0 auto;
+  margin: 24px auto;
+  margin-bottom: 40px;
+  top: 75px;
   padding-top: 20px;
-  font-size: 4rem;
-  height: 900px;
-  width: 1300px;
-  letter-spacing: -14px;
+  height: 700px;
+  width: 100%;
   text-align: center; }
-  .blog-component h1 {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    top: 200px;
-    width: 60%;
-    height: 400px;
-    word-wrap: break-word; }
 
 /*# sourceMappingURL=Blog.css.map */

@@ -32,7 +32,7 @@ class Header extends Component  {
     return(
     <div className="header-component">
       <div className="header-body">        
-          <div className="site-logo">            
+          <div className="site-logo">        
             <Link to="/home">
               <div className="logo-bod">
                 <span className="logo-span">Mount Atlas</span>

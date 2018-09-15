@@ -1,19 +1,22 @@
 .footer-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 120px;
-  width: 100%;
-  color: #fafafa; }
-
-.footer-span {
-  color: #000000a1;
   display: block;
   position: relative;
-  width: 250px;
-  letter-spacing: -.8px;
-  font-weight: 100;
+  margin: 0 auto;
+  top: 24px;
+  height: 90px;
+  width: 100%; }
+
+.footer-span {
+  color: #171b4460;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 4px;
+  width: 150px;
+  top: 30%;
+  letter-spacing: -1px;
+  font-size: .80rem;
+  font-weight: 400;
   font-style: italic;
   text-align: center; }
 

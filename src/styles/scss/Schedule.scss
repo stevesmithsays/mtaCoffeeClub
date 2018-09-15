@@ -1,62 +1,13 @@
 .schedule-component{
-  background: #ddc34e;      
-  background: black;      
+  background: #3bcfaf;
   border-radius: 4px;
   display: block;
   position: relative;
-  margin: 0 auto;
+  margin: 24px auto;
+  margin-bottom: 40px;
+  top: 75px;  
   padding-top: 20px;
   height: 600px;
-  width: 98.25%;
+  width: 100%;  
   text-align: center;
-
-  .schedule-body{
-    display:block;
-    position: relative;
-    margin: 0 auto;    
-    border-radius: 4px;
-    height: 585px;
-    width: 90%;
-    background-image: url('../../assets/images/create.jpg');
-    background-position: center;
-    background-size: 900px;    
-    background-repeat: no-repeat;
-    transition: .2s ease all;
-  }
-
-  .schedule-body:hover{
-    transition: .2s ease all;
-    filter: blur(0px);
-  }
-  
-    h1{
-      background: #ffffff4b;
-      color: #0000006c;
-      display:block;
-      position: relative;
-      margin: 0 auto;
-      height: 270px;
-      width: 65%;
-      top: 100px;
-      padding: 40px;
-      font-size: 5rem;
-      letter-spacing: -9px;
-      word-wrap: break-word;
-      transition: .2s ease all;
-    }
-    h1:hover{
-      transition: .2s ease all;
-      background: #fafafa31;
-      color: #ffffff;
-      text-shadow: 1px 0px 20px #ff490136;
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    .schedule-body > h1{
-      font-size: 2.5rem;
-      letter-spacing: -2px;
-      padding: 20px;
-      width: 75%;
-    }
-  }
+}

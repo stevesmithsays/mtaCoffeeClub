@@ -1,24 +1,14 @@
 .blog-component{
-  background: #1B2EAA;
+  background: #dd9332;
+  // background-image: url('../../assets/images/spilledMilk.jpg');
+  border-radius: 4px;
   display: block;
   position: relative;
-  margin: 0 auto;
+  margin: 24px auto;
+  margin-bottom: 40px;
+  top: 75px;  
   padding-top: 20px;
-  font-size: 4rem;
-  height: 900px;
-  width: 1300px;
-  letter-spacing: -14px;
+  height: 700px;
+  width: 100%;  
   text-align: center;
-
-  h1{
-    // background: lightblue;
-    display:block;
-    position: relative;
-    margin: 0 auto;
-    top: 200px;
-    width: 60%;
-    height: 400px;
-    word-wrap: break-word;
-
-  }
 }
