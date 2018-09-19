@@ -1,12 +1,15 @@
 import React from 'react';
+
 import "../styles/scss/SocialNav.scss";
 
 const SocialNav = () => {
   return(
     <div className="socialnav-component">
-      <div className="fb snav"></div>
-      <div className="insta snav"></div>
-      <div className="gmail snav"></div>
+      <nav className="snav">
+        <div className="fb sociacon"></div>
+        <div className="insta sociacon"></div>
+        <div className="gmail sociacon"></div>
+      </nav>
     </div>
   )
 }

@@ -1,10 +1,10 @@
 .hero-component {
   display: block;
   position: relative;
-  height: 700px;
+  height: 900px;
   width: 100%;
   background-size: 1400px;
-  background-position: 25% 35%;
+  background-position: center;
   background-image: url("../../assets/images/pride.jpg"); }
   .hero-component h1 {
     background: #ffd9019f;

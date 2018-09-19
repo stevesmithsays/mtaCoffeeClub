@@ -1,5 +1,4 @@
 .header-component {
-  background: #f1e4d9;
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
@@ -12,15 +11,18 @@
   z-index: 1001;
   transition: .2s ease all; }
 
+.header-component:hover {
+  transition: .2s ease all;
+  background: #f1e4d9; }
+
 .header-body {
   display: block;
   margin: 0 auto;
-  margin-bottom: 200px;
   height: 20px;
   width: 95%; }
 
 .site-logo {
-  background: #02113a59;
+  background: #242e49;
   display: block;
   position: relative;
   margin: 0 2px;
@@ -35,8 +37,12 @@
 
 .site-logo:hover {
   transition: .3s ease all;
-  border-left: 4px solid #2c308862;
-  background: #00042b75; }
+  background: #ffc13b;
+  border-left: 4px solid #242e49; }
+
+.site-logo:hover .logo-span {
+  transition: .2s ease all;
+  color: #242e49; }
 
 .logo-bod {
   display: block;
@@ -177,40 +183,33 @@
     display: flex;
     position: relative;
     border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     box-shadow: -12px 12px 30px #00000038;
-    float: right;
-    width: 160px;
-    top: 24px;
-    left: 24px; }
-
-  .dropnav {
-    display: flex;
-    position: relative;
     margin: 0 auto;
-    width: 90%; }
-    .dropnav ul {
-      display: block;
+    padding-bottom: 14px;
+    width: 99%;
+    height: 80vh;
+    top: 24px;
+    transition: .2s ease all; }
+    .dropnav-container .dropnav {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-content: center;
       position: relative;
-      width: 99%; }
-    .dropnav a {
-      display: block;
-      position: relative;
-      color: #00000071;
-      margin: 1px auto;
-      padding: 4px;
-      height: 30px;
-      width: 152px;
-      right: 48px;
-      text-align: left;
-      border-left: 4px solid #ffc13b00;
-      font-size: 1rem;
-      letter-spacing: -1.5px;
-      line-height: 30px;
-      transition: .2s ease all; }
-    .dropnav a:hover {
-      transition: .2s ease all;
-      background: #4d434356;
-      color: #000000;
-      border-left: 4px solid #2c308862; } }
+      margin: 0 auto;
+      width: 100%; }
+      .dropnav-container .dropnav div a {
+        background: #f1e4d9;
+        color: #16163531;
+        display: block;
+        font-size: 3.75rem;
+        padding: 12px 0px;
+        padding-left: 10px;
+        text-align: left;
+        transition: .2s ease all; }
+      .dropnav-container .dropnav div a:hover {
+        transition: .2s ease all;
+        color: brown; } }
 
 /*# sourceMappingURL=Header.css.map */

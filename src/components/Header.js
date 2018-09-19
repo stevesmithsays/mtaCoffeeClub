@@ -8,7 +8,7 @@ class Header extends Component  {
     super();
 
     this.state= {
-      showNav: false,
+      showNav: true,
     }
 
     this.showNav = this.showNav.bind(this);
@@ -54,13 +54,11 @@ class Header extends Component  {
           this.state.showNav 
           ? (
             <div className="dropnav-container">
-              <nav className="dropnav">
-                <ul>
-                  <li><Link to="/about">About</Link></li>
-                  <li><Link to="/blog">Blog</Link></li>
-                  <li><Link to="/schedule">Schedule</Link></li>
-                  <li><a href="http://mountatlas.club/#/">Shop</a></li>
-                </ul>
+              <nav className="dropnav">                
+                  <div><Link to="/about">About</Link></div>
+                  <div><Link to="/blog">Blog</Link></div>
+                  <div><Link to="/schedule">Schedule</Link></div>
+                  <div><a href="http://mountatlas.club/#/">Shop</a></div>
               </nav>
           </div>        
         ) 
