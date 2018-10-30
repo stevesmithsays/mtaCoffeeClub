@@ -8,7 +8,7 @@ class Header extends Component  {
     super();
 
     this.state= {
-      showNav: true,
+      showNav: false,
     }
 
     this.showNav = this.showNav.bind(this);

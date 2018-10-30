@@ -1,13 +1,16 @@
 .footer-body {
-  background: #21ecdb;
+  border-top: 1px solid #ff0055;
+  background: black;
   display: block;
   position: relative;
   margin: 0 auto;
+  padding-top: 24px;
   height: 90px;
   width: 100%; }
 
 .footer-span {
   color: #171b4460;
+  color: #ffd9c3;
   display: block;
   position: relative;
   margin: 0 auto;

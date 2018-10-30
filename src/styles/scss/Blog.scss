@@ -1,14 +1,39 @@
-.blog-component{
-  background: #dd9332;
-  // background-image: url('../../assets/images/spilledMilk.jpg');
-  border-radius: 4px;
+.blog-component{  
+  background-image: url('../../assets/images/julia-d-alkmin-121797-unsplash.jpg');  
   display: block;
   position: relative;
-  margin: 24px auto;
-  margin-bottom: 40px;
-  top: 75px;  
+  margin: 0 auto;    
   padding-top: 20px;
-  height: 700px;
-  width: 100%;  
+  height: 1200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.bloghwun{
+  display: block;
+  position: relative;
+  width: 90%;
   text-align: center;
+  margin: 0 auto;
+  font-size: 5rem;
+  margin-top: 200px;
+  background: #1d50f8ed;
+  color: #fafafa00;
+  transition: .2s ease all;
+}
+.bloghwun:hover{
+  transition: .2s ease all;
+  background: #f81d42ed;
+  color: black;
+  border-radius: 90px;
+}
+
+.steves{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background: #2dff85c7;
+  text-align: center;
+  width: 90%;
 }

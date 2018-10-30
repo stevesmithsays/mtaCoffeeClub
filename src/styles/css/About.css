@@ -1,20 +1,26 @@
 .about-component {
   display: block;
   position: relative;
-  height: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 900px;
   width: 100%;
   background-size: 1400px;
   background-position: center;
-  background-image: url("../../assets/images/MT.A.jpg");
-  background-repeat: inherit; }
+  background-repeat: inherit;
+  background-image: url("../../assets/images/spilledMilk.jpg"); }
 
 .abt-header-container {
+  background: #0bff0b8f;
   display: block;
   position: relative;
   margin: 0 auto;
-  background: lightgreen;
+  width: 370px;
+  font-size: 3.5rem;
+  letter-spacing: -3px;
+  line-height: 108px;
   text-align: center;
-  top: 25%; }
+  top: 30%; }
 
 @media screen and (max-width: 850px) {
   .about-component {

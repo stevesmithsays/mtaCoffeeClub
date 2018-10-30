@@ -1,14 +1,13 @@
 .schedule-component {
-  background: #3bcfaf;
-  border-radius: 4px;
+  background-image: url("../../assets/images/quentin-lagache-89599-unsplash.jpg");
   display: block;
   position: relative;
-  margin: 24px auto;
-  margin-bottom: 40px;
-  top: 75px;
+  margin: 0 auto;
   padding-top: 20px;
-  height: 600px;
+  height: 900px;
   width: 100%;
+  background-size: cover;
+  background-position: center;
   text-align: center; }
 
 /*# sourceMappingURL=Schedule.css.map */

@@ -7,7 +7,10 @@ const Blog = () => {
   return(
     <div className="blog-component">
     <SocialNav/>
-      <h1>Blog Component</h1>
+      <h1 className="bloghwun">
+      
+      </h1>
+
     </div>
   )
 }

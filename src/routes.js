@@ -1,7 +1,6 @@
 import React from 'react';
 import {Switch, Route } from 'react-router-dom';
 
-
 import About from "./components/About";
 import Products from "./components/Products";
 import Schedule from "./components/Schedule";

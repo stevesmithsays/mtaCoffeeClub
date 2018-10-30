@@ -1,26 +1,29 @@
 .hero-component{
   display: block;
   position: relative;
+  margin: 0 auto;    
+  padding-top: 20px;
   height: 900px;
   width: 100%;
   background-size: 1400px;
   background-position: center;
-  background-image:url('../../assets/images/pride.jpg');
+  background-image:url('../../assets/images/joanna-kosinska.jpg');      
   
-  h1{
-    background: #ffd9019f;
-    color: #1bff5f9f;
+  .herohwun{
+    background: #c7cbffb7;
+    color: #000000;
     display: block;
     position: relative;
     margin: 0 auto;
-    padding: 4px;
+    padding: 24px;    
     border-radius: 4px;
-    font-size: 4.5rem;
+    font-size: 4.25rem;
     font-weight: 800;
-    letter-spacing: -2px;
-    top: 260px;
+    letter-spacing: -4px;
+    top: 150px;
     text-align: center;
-    width: 25%;
-    min-width: 200px;
+    width: 330px;
+    // height: 420px;
+    min-width: 330px;
   }
 }

@@ -6,7 +6,9 @@ const SocialNav = () => {
   return(
     <div className="socialnav-component">
       <nav className="snav">
-        <div className="fb sociacon"></div>
+        <div className="fb sociacon">
+          <div className=""><i></i></div>
+        </div>
         <div className="insta sociacon"></div>
         <div className="gmail sociacon"></div>
       </nav>
